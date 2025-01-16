@@ -1,0 +1,15 @@
+{
+	"versions": [
+		{
+			"package_version": "0.1.0",
+			"download_url": "https://codeload.github.com/Ozone31/diddy-kong-racing-ap-tracker/zip/refs/tags/v0.1.0",
+			"sha256": "b636b026c539e150cc68286bf03804d2c7d41d50f4be99d62dab858a95de74e3",
+			"changelog": [
+				"Note count is now is displayed as a single item - the notes and clefs are tracked in the background and then added together.",
+				"Fixed logic to access Stomping Plains.",
+				"Fixed Pack Whack Silo and Springy Step Shoes Silo locations not using the correct note cost to be in logic.",
+				"Other minor optimizations."
+			]
+		}
+  ]
+}
