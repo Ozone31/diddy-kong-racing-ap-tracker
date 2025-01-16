@@ -1,0 +1,288 @@
+[
+    {
+        "name": "Future Fun Land",
+        "access_rules": ["$FutureFunLandAccess"],
+        "children": [
+            {
+                "name": "Spacedust Alley",
+                "sections": [
+                    {
+                        "ref": "Spacedust Alley/FFL: Spacedust Alley 1/Balloon",
+                        "name": "FFL: Spacedust Alley 1"
+                    },
+                    {
+                        "ref": "Spacedust Alley/FFL: Spacedust Alley 2/Balloon",
+                        "name": "FFL: Spacedust Alley 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff",
+                        "x": 340,
+                        "y": 445
+                    }
+                ]
+            },
+            {
+                "name": "Darkmoon Caverns",
+                "sections": [
+                    {
+                        "ref": "Darkmoon Caverns/FFL: Darkmoon Caverns 1/Balloon",
+                        "name": "FFL: Darkmoon Caverns 1"
+                    },
+                    {
+                        "ref": "Darkmoon Caverns/FFL: Darkmoon Caverns 2/Balloon",
+                        "name": "FFL: Darkmoon Caverns 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff",
+                        "x": 210,
+                        "y": 370
+                    }
+                ]
+            },
+            {
+                "name": "Spaceport Alpha",
+                "sections": [
+                    {
+                        "ref": "Spaceport Alpha/FFL: Spaceport Alpha 1/Balloon",
+                        "name": "FFL: Spaceport Alpha 1"
+                    },
+                    {
+                        "ref": "Spaceport Alpha/FFL: Spaceport Alpha 2/Balloon",
+                        "name": "FFL: Spaceport Alpha 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff",
+                        "x": 210,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Star City",
+                "sections": [
+                    {
+                        "ref": "Star City/FFL: Star City 1/Balloon",
+                        "name": "FFL: Star City 1"
+                    },
+                    {
+                        "ref": "Star City/FFL: Star City 2/Balloon",
+                        "name": "FFL: Star City 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff",
+                        "x": 338,
+                        "y": 55
+                    }
+                ]
+            },
+            {
+                "name": "Wizpig 2",
+                "sections": [
+                    {
+                        "ref": "Wizpig 2/Wizpig 2/Wizpig Defeated",
+                        "name": "Wizpig Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff",
+                        "x": 1050,
+                        "y": 350
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Spacedust Alley",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$FutureFunLandAccess"],
+        "children": [
+            {
+                "name": "FFL: Spacedust Alley 1",
+                "access_rules": ["$SpacedustAlley1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff_sa1",
+                        "x": 440,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "FFL: Spacedust Alley 2",
+                "access_rules": ["$SpacedustAlley2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff_sa1",
+                        "x": 440,
+                        "y": 550
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Darkmoon Caverns",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$FutureFunLandAccess"],
+        "children": [
+            {
+                "name": "FFL: Darkmoon Caverns 1",
+                "access_rules": ["$DarkmoonCaverns1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff_dc",
+                        "x": 717,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "FFL: Darkmoon Caverns 2",
+                "access_rules": ["$DarkmoonCaverns2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff_dc",
+                        "x": 717,
+                        "y": 625
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Spaceport Alpha",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$FutureFunLandAccess"],
+        "children": [
+            {
+                "name": "FFL: Spaceport Alpha 1",
+                "access_rules": ["$SpaceportAlpha1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff_sa2",
+                        "x": 315,
+                        "y": 510
+                    }
+                ]
+            },
+            {
+                "name": "FFL: Spaceport Alpha 2",
+                "access_rules": ["$SpaceportAlpha2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff_sa2",
+                        "x": 337,
+                        "y": 508
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Star City",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$FutureFunLandAccess"],
+        "children": [
+            {
+                "name": "FFL: Star City 1",
+                "access_rules": ["$StarCity1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff_sc",
+                        "x": 735,
+                        "y": 30
+                    }
+                ]
+            },
+            {
+                "name": "FFL: Star City 2",
+                "access_rules": ["$StarCity2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff_sc",
+                        "x": 735,
+                        "y": 47
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wizpig 2",
+        "chest_unopened_img": "/images/locations/wizpig.png",
+        "chest_opened_img": "/images/locations/wizpig2.png",
+        "access_rules": ["$FutureFunLandAccess, $Wizpig2Access"],
+        "visibility_rules": ["goal_wizpig2"],
+        "children": [
+            {
+                "name": "Wizpig 2",
+                "sections": [
+                    {
+                        "name": "Wizpig Defeated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ff_wizpig",
+                        "x": 348,
+                        "y": 654
+                    }
+                ]
+            }
+        ]
+    }
+]

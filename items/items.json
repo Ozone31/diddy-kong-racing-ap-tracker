@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Wizpig Amulet Pieces",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "/images/items/wizpigamulet_0.png",
+        "name": "Wizpig Amulet - 0 Pieces",
+        "codes": "wpamulet,wpamulet_0",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/wizpigamulet_1.png",
+        "name": "Wizpig Amulet - 1 Piece",
+        "codes": "wpamulet,wpamulet_1",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/items/wizpigamulet_2.png",
+        "name": "Wizpig Amulet - 2 Pieces",
+        "codes": "wpamulet,wpamulet_2",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/items/wizpigamulet_3.png",
+        "name": "Wizpig Amulet - 3 Pieces",
+        "codes": "wpamulet,wpamulet_3",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/items/wizpigamulet_4.png",
+        "name": "Wizpig Amulet - Complete",
+        "codes": "wpamulet,wpamulet_4",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "T.T. Amulet Pieces",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "/images/items/ttamulet_0.png",
+        "name": "T.T. Amulet - 0 Pieces",
+        "codes": "ttamulet,ttamulet_0",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/ttamulet_1.png",
+        "name": "T.T. Amulet - 1 Piece",
+        "codes": "ttamulet,ttamulet_1",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/items/ttamulet_2.png",
+        "name": "T.T. Amulet - 2 Pieces",
+        "codes": "ttamulet,ttamulet_2",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/items/ttamulet_3.png",
+        "name": "T.T. Amulet - 3 Pieces",
+        "codes": "ttamulet,ttamulet_3",
+        "inherit_codes": true
+      },
+      {
+        "img": "/images/items/ttamulet_4.png",
+        "name": "T.T. Amulet - Complete",
+        "codes": "ttamulet,ttamulet_4",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Golden Balloons",
+    "type": "consumable",
+    "max_quantity": 47,
+    "overlay_background": "#000000",
+    "img": "/images/items/goldenballoon.png",
+    "codes": "balloon"
+  },
+  {
+    "name": "Timber's Island Balloons",
+    "type": "consumable",
+    "max_quantity": 7,
+    "overlay_background": "#000000",
+    "img": "/images/items/goldenballoon.png",
+    "codes": "balloon_ti"
+  },
+  {
+    "name": "Dino Domain Balloons",
+    "type": "consumable",
+    "max_quantity": 8,
+    "overlay_background": "#000000",
+    "img": "/images/items/goldenballoon.png",
+    "codes": "balloon_dd"
+  },
+  {
+    "name": "Fire Mountain Key",
+    "type": "toggle",
+    "img": "/images/items/key.png",
+    "codes": "key_dd"
+  },
+  {
+    "name": "Snowflake Mountain Balloons",
+    "type": "consumable",
+    "max_quantity": 8,
+    "overlay_background": "#000000",
+    "img": "/images/items/goldenballoon.png",
+    "codes": "balloon_sm"
+  },
+  {
+    "name": "Icicle Pyramid Key",
+    "type": "toggle",
+    "img": "/images/items/key.png",
+    "codes": "key_sm"
+  },
+  {
+    "name": "Sherbet Island Balloons",
+    "type": "consumable",
+    "max_quantity": 8,
+    "overlay_background": "#000000",
+    "img": "/images/items/goldenballoon.png",
+    "codes": "balloon_si"
+  },
+  {
+    "name": "Darkwater Beach Key",
+    "type": "toggle",
+    "img": "/images/items/key.png",
+    "codes": "key_si"
+  },
+  {
+    "name": "Dragon Forest Balloons",
+    "type": "consumable",
+    "max_quantity": 8,
+    "overlay_background": "#000000",
+    "img": "/images/items/goldenballoon.png",
+    "codes": "balloon_df"
+  },
+  {
+    "name": "Smokey Castle Key",
+    "type": "toggle",
+    "img": "/images/items/key.png",
+    "codes": "key_df"
+  },
+  {
+    "name": "Future Fun Land Balloons",
+    "type": "consumable",
+    "max_quantity": 8,
+    "overlay_background": "#000000",
+    "img": "/images/items/goldenballoon.png",
+    "codes": "balloon_ff"
+  },
+  {
+    "name": "Skip Trophy Races",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/skiptrophyraces_on.png",
+        "name": "Skip Trophy Races - On",
+        "codes": "skiptrophyraces,skiptrophyraces_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/skiptrophyraces_off.png",
+        "name": "Skip Trophy Races - Off",
+        "codes": "skiptrophyraces,skiptrophyraces_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Open Worlds",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/openworlds_off.png",
+        "name": "Open Worlds - Off",
+        "codes": "openworlds,openworlds_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/openworlds_on.png",
+        "name": "Open Worlds - On",
+        "codes": "openworlds,openworlds_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goal",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/goal_wizpig1.png",
+        "name": "Goal - Wizpig 1",
+        "codes": "goal,goal_wizpig1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/goal_wizpig2.png",
+        "name": "Goal - Wizpig 2",
+        "codes": "goal,goal_wizpig2",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

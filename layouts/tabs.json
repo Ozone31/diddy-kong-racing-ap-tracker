@@ -1,0 +1,67 @@
+{
+	"tabbed_maps": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "Timber's Island",
+				"content": {
+					"type": "dock",
+					"content": {
+						"type": "layout",
+						"key": "maps_ti"
+					}
+				}
+			},
+			{
+				"title": "Dino Domain",
+				"content": {
+					"type": "dock",
+					"content": {
+						"type": "layout",
+						"key": "maps_dd"
+					}
+				}
+			},
+			{
+				"title": "Snowflake Mountain",
+				"content": {
+					"type": "dock",
+					"content": {
+						"type": "layout",
+						"key": "maps_sm"
+					}
+				}
+			},
+			{
+				"title": "Sherbet Island",
+				"content": {
+					"type": "dock",
+					"content": {
+						"type": "layout",
+						"key": "maps_si"
+					}
+				}
+			},
+			{
+				"title": "Dragon Forest",
+				"content": {
+					"type": "dock",
+					"content": {
+						"type": "layout",
+						"key": "maps_df"
+					}
+				}
+			},
+			{
+				"title": "Future Fun Land",
+				"content": {
+					"type": "dock",
+					"content": {
+						"type": "layout",
+						"key": "maps_ff"
+					}
+				}
+			}
+		]
+	}
+}

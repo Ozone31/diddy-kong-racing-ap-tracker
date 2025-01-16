@@ -1,0 +1,327 @@
+[
+    {
+        "name": "Snowflake Mountain",
+        "access_rules": ["$SnowflakeMountainAccess"],
+        "children": [
+            {
+                "name": "Everfrost Peak",
+                "sections": [
+                    {
+                        "ref": "Everfrost Peak/SM: Everfrost Peak 1/Balloon",
+                        "name": "SM: Everfrost Peak 1"
+                    },
+                    {
+                        "ref": "Everfrost Peak/SM: Everfrost Peak 2/Balloon",
+                        "name": "SM: Everfrost Peak 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm",
+                        "x": 180,
+                        "y": 154
+                    }
+                ]
+            },
+            {
+                "name": "Walrus Cove",
+                "sections": [
+                    {
+                        "ref": "Walrus Cove/SM: Walrus Cove 1/Balloon",
+                        "name": "SM: Walrus Cove 1"
+                    },
+                    {
+                        "ref": "Walrus Cove/SM: Walrus Cove 2/Balloon",
+                        "name": "SM: Walrus Cove 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm",
+                        "x": 342,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "Snowball Valley",
+                "sections": [
+                    {
+                        "ref": "Snowball Valley/SM: Snowball Valley 1/Balloon",
+                        "name": "SM: Snowball Valley 1"
+                    },
+                    {
+                        "ref": "Snowball Valley/SM: Snowball Valley 2/Balloon",
+                        "name": "SM: Snowball Valley 2"
+                    },
+                    {
+                        "ref": "Snowball Valley/SM: Icicle Pyramid Key/Key",
+                        "name": "SM: Icicle Pyramid Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm",
+                        "x": 125,
+                        "y": 310
+                    }
+                ]
+            },
+            {
+                "name": "Frosty Village",
+                "sections": [
+                    {
+                        "ref": "Frosty Village/SM: Frosty Village 1/Balloon",
+                        "name": "SM: Frosty Village 1"
+                    },
+                    {
+                        "ref": "Frosty Village/SM: Frosty Village 2/Balloon",
+                        "name": "SM: Frosty Village 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm",
+                        "x": 180,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "name": "SM: Icicle Pyramid",
+                "chest_unopened_img": "/images/locations/ttamulet.png",
+                "chest_opened_img": "/images/locations/ttamulet2.png",
+                "access_rules": ["$has|key_sm"],
+                "sections": [
+                    {
+                        "name": "T.T. Amulet Piece"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm",
+                        "x": 420,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "SM: Bluey 2",
+                "sections": [
+                    {
+                        "ref": "Bluey/SM: Bluey 2/Wizpig Amulet Piece",
+                        "name": "SM: Bluey 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm",
+                        "x": 710,
+                        "y": 305
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Everfrost Peak",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$SnowflakeMountainAccess"],
+        "children": [
+            {
+                "name": "SM: Everfrost Peak 1",
+                "access_rules": ["$EverfrostPeak1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_ep",
+                        "x": 590,
+                        "y": 224
+                    }
+                ]
+            },
+            {
+                "name": "SM: Everfrost Peak 2",
+                "access_rules": ["$EverfrostPeak2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_ep",
+                        "x": 605,
+                        "y": 212
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Walrus Cove",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$SnowflakeMountainAccess"],
+        "children": [
+            {
+                "name": "SM: Walrus Cove 1",
+                "access_rules": ["$WalrusCove1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_wc",
+                        "x": 526,
+                        "y": 422
+                    }
+                ]
+            },
+            {
+                "name": "SM: Walrus Cove 2",
+                "access_rules": ["$WalrusCove2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_wc",
+                        "x": 545,
+                        "y": 422
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Snowball Valley",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$SnowflakeMountainAccess"],
+        "children": [
+            {
+                "name": "SM: Snowball Valley 1",
+                "access_rules": ["$SnowballValley1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_sv",
+                        "x": 395,
+                        "y": 198
+                    }
+                ]
+            },
+            {
+                "name": "SM: Snowball Valley 2",
+                "access_rules": ["$SnowballValley2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_sv",
+                        "x": 395,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "SM: Icicle Pyramid Key",
+                "chest_unopened_img": "/images/locations/key.png",
+                "chest_opened_img": "/images/locations/key2.png",
+                "access_rules": ["$SnowballValley1Access"],
+                "sections": [
+                    {
+                        "name": "Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_sv",
+                        "x": 510,
+                        "y": 85
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Frosty Village",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$SnowflakeMountainAccess"],
+        "children": [
+            {
+                "name": "SM: Frosty Village 1",
+                "access_rules": ["$FrostyVillage1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_fv",
+                        "x": 150,
+                        "y": 326
+                    }
+                ]
+            },
+            {
+                "name": "SM: Frosty Village 2",
+                "access_rules": ["$FrostyVillage2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_fv",
+                        "x": 174,
+                        "y": 326
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bluey",
+        "chest_unopened_img": "/images/locations/wizpigamulet.png",
+        "chest_opened_img": "/images/locations/wizpigamulet2.png",
+        "access_rules": ["$SnowflakeMountainAccess, $can_access_boss_2|SM"],
+        "children": [
+            {
+                "name": "SM: Bluey 2",
+                "sections": [
+                    {
+                        "name": "Wizpig Amulet Piece"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sm_bluey",
+                        "x": 1076,
+                        "y": 597
+                    }
+                ]
+            }
+        ]
+    }
+]

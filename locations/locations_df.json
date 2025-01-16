@@ -1,0 +1,327 @@
+[
+    {
+        "name": "Dragon Forest",
+        "access_rules": ["$DragonForestAccess"],
+        "children": [
+            {
+                "name": "Windmill Plains",
+                "sections": [
+                    {
+                        "ref": "Windmill Plains/DF: Windmill Plains 1/Balloon",
+                        "name": "DF: Windmill Plains 1"
+                    },
+                    {
+                        "ref": "Windmill Plains/DF: Windmill Plains 2/Balloon",
+                        "name": "DF: Windmill Plains 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df",
+                        "x": 380,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "name": "Greenwood Village",
+                "sections": [
+                    {
+                        "ref": "Greenwood Village/DF: Greenwood Village 1/Balloon",
+                        "name": "DF: Greenwood Village 1"
+                    },
+                    {
+                        "ref": "Greenwood Village/DF: Greenwood Village 2/Balloon",
+                        "name": "DF: Greenwood Village 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df",
+                        "x": 360,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "Boulder Canyon",
+                "sections": [
+                    {
+                        "ref": "Boulder Canyon/DF: Boulder Canyon 1/Balloon",
+                        "name": "DF: Boulder Canyon 1"
+                    },
+                    {
+                        "ref": "Boulder Canyon/DF: Boulder Canyon 2/Balloon",
+                        "name": "DF: Boulder Canyon 2"
+                    },
+                    {
+                        "ref": "Boulder Canyon/DF: Smokey Castle Key/Key",
+                        "name": "DF: Smokey Castle Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df",
+                        "x": 515,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Haunted Woods",
+                "sections": [
+                    {
+                        "ref": "Haunted Woods/DF: Haunted Woods 1/Balloon",
+                        "name": "DF: Haunted Woods 1"
+                    },
+                    {
+                        "ref": "Haunted Woods/DF: Haunted Woods 2/Balloon",
+                        "name": "DF: Haunted Woods 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df",
+                        "x": 640,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "DF: Smokey Castle",
+                "chest_unopened_img": "/images/locations/ttamulet.png",
+                "chest_opened_img": "/images/locations/ttamulet2.png",
+                "access_rules": ["$has|key_df"],
+                "sections": [
+                    {
+                        "name": "T.T. Amulet Piece"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df",
+                        "x": 940,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "DF: Smokey 2",
+                "sections": [
+                    {
+                        "ref": "Smokey/DF: Smokey 2/Wizpig Amulet Piece",
+                        "name": "DF: Smokey 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df",
+                        "x": 850,
+                        "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Windmill Plains",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$DragonForestAccess"],
+        "children": [
+            {
+                "name": "DF: Windmill Plains 1",
+                "access_rules": ["$WindmillPlains1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_wp",
+                        "x": 400,
+                        "y": 197
+                    }
+                ]
+            },
+            {
+                "name": "DF: Windmill Plains 2",
+                "access_rules": ["$WindmillPlains2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_wp",
+                        "x": 400,
+                        "y": 217
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Greenwood Village",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$DragonForestAccess"],
+        "children": [
+            {
+                "name": "DF: Greenwood Village 1",
+                "access_rules": ["$GreenwoodVillage1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_gv",
+                        "x": 1080,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "DF: Greenwood Village 2",
+                "access_rules": ["$GreenwoodVillage2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_gv",
+                        "x": 1100,
+                        "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Boulder Canyon",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$DragonForestAccess"],
+        "children": [
+            {
+                "name": "DF: Boulder Canyon 1",
+                "access_rules": ["$BoulderCanyon1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_bc",
+                        "x": 697,
+                        "y": 509
+                    }
+                ]
+            },
+            {
+                "name": "DF: Boulder Canyon 2",
+                "access_rules": ["$BoulderCanyon2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_bc",
+                        "x": 720,
+                        "y": 509
+                    }
+                ]
+            },
+            {
+                "name": "DF: Smokey Castle Key",
+                "chest_unopened_img": "/images/locations/key.png",
+                "chest_opened_img": "/images/locations/key2.png",
+                "access_rules": ["$BoulderCanyon1Access"],
+                "sections": [
+                    {
+                        "name": "Key"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_bc",
+                        "x": 266,
+                        "y": 519
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Haunted Woods",
+        "chest_unopened_img": "/images/locations/goldenballoon.png",
+        "chest_opened_img": "/images/locations/goldenballoon2.png",
+        "access_rules": ["$DragonForestAccess"],
+        "children": [
+            {
+                "name": "DF: Haunted Woods 1",
+                "access_rules": ["$HauntedWoods1Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_hw",
+                        "x": 233,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "DF: Haunted Woods 2",
+                "access_rules": ["$HauntedWoods2Access"],
+                "sections": [
+                    {
+                        "name": "Balloon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_hw",
+                        "x": 233,
+                        "y": 470
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Smokey",
+        "chest_unopened_img": "/images/locations/wizpigamulet.png",
+        "chest_opened_img": "/images/locations/wizpigamulet2.png",
+        "access_rules": ["$DragonForestAccess, $can_access_boss_2|DF"],
+        "children": [
+            {
+                "name": "DF: Smokey 2",
+                "sections": [
+                    {
+                        "name": "Wizpig Amulet Piece"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "df_smokey",
+                        "x": 690,
+                        "y": 345
+                    }
+                ]
+            }
+        ]
+    }
+]
