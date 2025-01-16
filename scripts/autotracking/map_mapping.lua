@@ -1,3 +1,0 @@
-MAP_MAPPING =	{
-    
-}
