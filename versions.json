@@ -3,12 +3,11 @@
 		{
 			"package_version": "0.1.0",
 			"download_url": "https://codeload.github.com/Ozone31/diddy-kong-racing-ap-tracker/zip/refs/tags/v0.1.0",
-			"sha256": "b636b026c539e150cc68286bf03804d2c7d41d50f4be99d62dab858a95de74e3",
+			"sha256": "907e1d66898aece8be9198f87ed8abfc497d9a5658e212bdb532abbbb29a95cd",
 			"changelog": [
-				"Note count is now is displayed as a single item - the notes and clefs are tracked in the background and then added together.",
-				"Fixed logic to access Stomping Plains.",
-				"Fixed Pack Whack Silo and Springy Step Shoes Silo locations not using the correct note cost to be in logic.",
-				"Other minor optimizations."
+				"Initial release! This Poptracker pack includes: Autotracking for items/locations, Maps for all hubs/tracks (for potential added future locations)",
+				"There is no auto-map switching support currently, but could be added in the future if the game sends this data in a future update.",
+				"Please expect there to be bugs and to report them in the game's Discord thread on the Archipelago server."
 			]
 		}
   ]
